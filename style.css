@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* border: 1px solid green; */
+    background-color: brown;
+    display: flex;
+    justify-content:right;
+    align-items:center;
+    padding: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    gap: 10px;
+    font-weight: 900;
+}

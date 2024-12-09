@@ -17,3 +17,13 @@ header{
     gap: 10px;
     font-weight: 900;
 }
+#heroe{
+    background-color: black;
+    padding: 80px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    display: flex; 
+    justify-content:left
+font center:baseline
+}

@@ -37,7 +37,7 @@ h1{
     height:1150px;
     width:100%;
 }
-h2{
+.h2{
     text-align: center;
     color:white;
     font-size:40px;
@@ -116,10 +116,7 @@ hr{
         content: '<';
         color: orange;
         position: absolute;
-        left: 20px;
-    
-   
-    
+        left: 20px;   
 }
 
 .projects_p:hover::before{
@@ -144,14 +141,22 @@ hr{
     font-weight: 500;
 }
 .links{
-    background-color: green;
+    background-color: rgb(49, 58, 49);
     color: white;
     display:flex;
     justify-content: center;
+    padding: 20px;
+    /* width: 100%;
+    height: 100vh; */
 
 }
 .link{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 20px;
-    background-color: rgb(9, 9, 70);
+    /* background-color: rgb(9, 9, 70); */
+    margin: 10px;
+    color: white;
+}
+#link_h2{
+padding: 10px;
 }

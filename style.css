@@ -146,8 +146,11 @@ hr{
     display:flex;
     justify-content: center;
     padding: 20px;
+    cursor: pointer;
+    align-items: center;
     /* width: 100%;
     height: 100vh; */
+    
 
 }
 .link{
@@ -156,7 +159,22 @@ hr{
     /* background-color: rgb(9, 9, 70); */
     margin: 10px;
     color: white;
+    /* position: fixed; */
+    cursor: pointer;
 }
 #link_h2{
 padding: 10px;
+align-self: center;
+}
+p{
+    padding: 5px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 10px;
+    align-items: center;
+}
+#icons{
+    padding: 25px;
+    font-weight: 500;
+    gap: 10px;
 }

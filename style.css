@@ -12,6 +12,7 @@
     width:100%;
     text-align: right;
     color: white;
+   font-family: Arial, Helvetica, sans-serif;
 }
 #welcome-section{
     background:repeating-linear-gradient(60deg,rgb(66, 66, 66),rgb(31, 30, 30));
@@ -177,4 +178,13 @@ p{
     padding: 25px;
     font-weight: 500;
     gap: 10px;
+}
+footer{
+ 
+    background-color: rgb(49, 58, 49);
+    display: flex;
+    justify-content: space-between;  
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
 }

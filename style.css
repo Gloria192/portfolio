@@ -42,16 +42,16 @@ h2{
     color:white;
     font-size:40px;
     padding-top:40px;
-    background-color: green;
+    background-color: rgb(19, 0, 128);
     /* width: 10px;
     height: 10px; */
 
 }   
-.hr-div{
+/* .hr-div{
     display: flex;
     align-items: center;
     padding-bottom:50px;
-}
+} */
 /* .projects{
     
     display:grid;
@@ -60,16 +60,23 @@ h2{
     justify-items: center;
 } */
 hr{
-    width:500px;
+    width:400px;
     margin-left:auto;
     margin-right:auto
 }
 .section__projects h2{
-    color: var(--FONT-COLOR);
+    color: white;
+    background-color: rgb(74, 74, 107);
     text-align: center;
-    text-decoration: underline;
+    text-decoration:underline;
     font-size: 2em;
     padding-top: 3rem;
+    padding-bottom: 10px;
+    /* border:20px solid green; */
+    /* border-top:10px;
+    border-left: 10px;
+    border-right: 10px; */
+    margin-bottom: 10px;
 }
 
 .projects__div{
@@ -91,34 +98,48 @@ hr{
     width: 100%;
     height: 400px;
     display: block;
+    background-color: rgb(39, 39, 121);
 
 }
 
 .projects__p{
-    background-color: var(--PROJECT-PBGCOLOR);
-    color: var(--FONT-COLOR);
+    background-color: rgb(65, 55, 55);
+    color:white;
     text-align: center;
     padding: 1rem;
     position: relative;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20PX;
+}
+    .projects__p:hover::after{
+        content: '<';
+        color: orange;
+        position: absolute;
+        left: 20px;
+    
+   
+    
 }
 
-.projects_p:hover::after{
+.projects_p:hover::before{
     content: '/>';
     color: orange;
     position: absolute;
     right: 20px;
 }
 
-.projects__p:hover::before{
-    content: '<';
-    color: orange;
-    position: absolute;
-    left: 20px;
-
-}
-
-
 .buttons{
     text-align: center;
     margin-top: 3rem;
+    background-color: rgb(31, 31, 90);
+    padding: 30px;
+}
+.button{
+    padding: 10px;
+    background-color: rgb(98, 98, 136);
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }

@@ -31,3 +31,36 @@ h1{
     color:rgb(175, 43, 43);
     font-style:italic;
 }
+
+#Projects{
+    background-color: rgb(61, 88, 114);
+    height:1150px;
+    width:100%;
+}
+h2{
+    text-align: center;
+    color:white;
+    font-size:40px;
+    padding-top:40px;
+    background-color: green;
+    /* width: 10px;
+    height: 10px; */
+
+}   
+.hr-div{
+    display: flex;
+    align-items: center;
+    padding-bottom:50px;
+}
+/* .projects{
+    
+    display:grid;
+    grid-template-rows:450px 450px 450px ;
+    grid-template-columns:450px 450px 450px ;
+    justify-items: center;
+} */
+hr{
+    width:500px;
+    margin-left:auto;
+    margin-right:auto
+}

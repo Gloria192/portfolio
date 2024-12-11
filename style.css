@@ -205,6 +205,12 @@ p{
     font-weight: 500;
     gap: 10px;
 }
+.line{
+    /* text-decoration: underline; */
+border-bottom: 5px solid red;
+/* color:brown; */
+
+}
 footer{
  
     background-color: rgb(49, 58, 49);

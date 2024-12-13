@@ -3,30 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media(max-width:1770px){
-    header{
-        padding: 22px 4%;
-    }
-    .icons{
-        padding: 0 4%;
-    }
-    .scroll{
-        right: 4%;
-    }
-}
-@media(max-width:1370px){
-    .icons{
-        display: none;
-    }
-    section{
-        padding: 0 4%;
-    }
-}
-@media(max-width:950px){
-    #welcome-sectionicon{
-        display: block;
-    }
-}
 #nav-bar{
     /* border: 1px solid green; */
     background-color: rgb(161, 52, 52);
@@ -67,9 +43,9 @@ h1{
 .h2{
     text-align: center;
     color:white;
-    font-size:40px;
+    font-size:30px;
     padding-top:40px;
-    background-color: rgb(19, 0, 128);
+    background-color: rgb(30, 28, 41);
     /* width: 10px;
     height: 10px; */
 
@@ -93,12 +69,13 @@ hr{
 }
 .section__projects h2{
     color: white;
-    background-color: rgb(74, 74, 107);
+    background-color: rgb(90, 90, 190);
     text-align: center;
     text-decoration:underline;
     font-size: 2em;
     padding-top: 3rem;
     padding-bottom: 10px;
+    width: 100%;
     /* border:20px solid green; */
     /* border-top:10px;
     border-left: 10px;
@@ -113,6 +90,7 @@ hr{
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
+    background-color: rgb(71, 58, 83);
 }
 
 .project-tile{
@@ -156,8 +134,10 @@ hr{
 .buttons{
     text-align: center;
     margin-top: 3rem;
-    background-color: rgb(31, 31, 90);
+    background-color: rgb(44, 44, 61);
     padding: 30px;
+    padding-top: 30px;
+    width: 100%;
 }
 .button{
     padding: 10px;
@@ -205,12 +185,10 @@ p{
     font-weight: 500;
     gap: 10px;
 }
-.line{
-    /* text-decoration: underline; */
-border-bottom: 5px solid red;
-/* color:brown; */
-
+hr{
+    border: 2px red;
 }
+
 footer{
  
     background-color: rgb(49, 58, 49);
@@ -219,4 +197,28 @@ footer{
     color: white;
     font-weight: 300;
     font-size: 25px;
+}
+@media(max-width:1770px){
+    header{
+        padding: 22px 4%;
+    }
+    .icons{
+        padding: 0 4%;
+    }
+    .scroll{
+        right: 4%;
+    }
+}
+@media(max-width:1370px){
+    .icons{
+        display: none;
+    }
+    section{
+        padding: 0 4%;
+    }
+}
+@media(max-width:950px){
+    #welcome-sectionicon{
+        display: block;
+    }
 }
